@@ -500,7 +500,7 @@ SR5.meleeWeaponTypes = {
   clubs                     : "SR5.MeleeWeaponTypeClubs",
   blades                    : "SR5.MeleeWeaponTypeBlades",
   unarmed                   : "SR5.MeleeWeaponTypeUnarmed",
-  exoticMeleeWeapon         : "SR5.MeleeWeaponTypeOther",
+  exoticMeleeWeapon               : "SR5.MeleeWeaponTypeOther",
 };
 
 // Types d'armes à distance
@@ -532,7 +532,7 @@ SR5.rangedWeaponTypes = {
 
 // Types d'armes à feu
 SR5.rangedWeaponFireTypes = {
-  exoticRangedWeapon        : "SR5.WeaponTypeSpecial",
+  exoticRangedWeapon               : "SR5.WeaponTypeSpecial",
   assaultRifle              : "SR5.WeaponTypeAssaultRifle",
   heavyMachineGun           : "SR5.WeaponTypeHeavyMachineGun",
   heavyPistol               : "SR5.WeaponTypeHeavyPistol",
@@ -550,36 +550,36 @@ SR5.rangedWeaponFireTypes = {
 // Types d'arc
 SR5.rangedWeaponBowTypes = {
   bow                       : "SR5.WeaponTypeBow",
-  exoticRangedWeapon        : "SR5.WeaponTypeSpecial",
+  exoticRangedWeapon               : "SR5.WeaponTypeSpecial",
 };
 
 // Types d'arbalète
 SR5.rangedWeaponCrossbowTypes = {
   heavyCrossbow             : "SR5.WeaponTypeHeavyCrossbow",
   lightCrossbow             : "SR5.WeaponTypeLightCrossbow",
-  mediumCrossbow            : "SR5.WeaponTypeMediumCrossbow",
-  harpoonGuns               : "SR5.WeaponTypeHarpoonGuns",
-  exoticRangedWeapon        : "SR5.WeaponTypeSpecial",
+  mediumCrossbow            : "SR5.WeaponTypeMediumCrossbow", 
+  harpoonGuns               : "SR5.WeaponTypeHarpoonGuns", 
+  exoticRangedWeapon               : "SR5.WeaponTypeSpecial",
 };
 
 SR5.rangedWeaponTaserTypes = {
   taser                     : "SR5.WeaponTypeTaser",
-  exoticRangedWeapon        : "SR5.WeaponTypeSpecial",
+  exoticRangedWeapon               : "SR5.WeaponTypeSpecial",
 };
 
 SR5.rangedWeaponLauncherTypes = {
   missileLauncher           : "SR5.WeaponTypeMissileLauncher",
-  exoticRangedWeapon        : "SR5.WeaponTypeSpecial",
+  exoticRangedWeapon               : "SR5.WeaponTypeSpecial",
 };
 
 SR5.rangedWeaponGrenadeLauncherTypes = {
   grenadeLauncher           : "SR5.WeaponTypeGrenadeLauncher",
-  exoticRangedWeapon        : "SR5.WeaponTypeSpecial",
+  exoticRangedWeapon               : "SR5.WeaponTypeSpecial",
 };
 
 SR5.rangedWeaponCanonTypes = {
   assaultCannon             : "SR5.WeaponTypeAssaultCannon",
-  exoticRangedWeapon        : "SR5.WeaponTypeSpecial",
+  exoticRangedWeapon               : "SR5.WeaponTypeSpecial",
 };
 
 // Types d'armes tout
@@ -965,11 +965,11 @@ SR5.traditionTypes = {
   missionists               : "SR5.TraditionMissionists",
   necroMagic                : "SR5.TraditionNecroMagic",
   olympianism               : "SR5.TraditionOlympianism",
-  pathOfPariah              : "SR5.TraditionpathOfPariah",
+  pathofPariah              : "SR5.TraditionPathofPariah",
   planarMagic               : "SR5.TraditionPlanarMagic",
   redMagic                  : "SR5.TraditionRedMagic",
   romani                    : "SR5.TraditionRomani",
-  tarot                     : "SR5.TraditionTarot",
+  tarot                    : "SR5.TraditionTarot",
 };
 
 // Types de sorts
@@ -1125,48 +1125,48 @@ SR5.spritePowerDefenseAttributes = {
 //-----------------------------------//
 // Martial Arts types
 SR5.martialArtsTypes = {
-  blocks52                  : "SR5.martialArtsType52blocks",
-  aikido                    : "SR5.martialArtsTypeaikido",
-  arnisdemano               : "SR5.martialArtsTypearnisdemano",
-  bartitsu                  : "SR5.martialArtsTypebartitsu",
-  boxingbrawler             : "SR5.martialArtsTypeboxingbrawler",
-  boxingclassic             : "SR5.martialArtsTypeboxingclassic",
-  boxingswarming            : "SR5.martialArtsTypeboxingswarming",
-  capoeira                  : "SR5.martialArtsTypecapoeira",
-  carromeleg                : "SR5.martialArtsTypecarromeleg",
-  chakramfighting           : "SR5.martialArtsTypechakramfighting",
-  drunkenboxing             : "SR5.martialArtsTypedrunkenboxing",
-  fioredeiliberi            : "SR5.martialArtsTypefioredeiliberi",
-  firefight                 : "SR5.martialArtsTypefirefight",
-  gunkata                   : "SR5.martialArtsTypegunkata",
-  jeetkunedo                : "SR5.martialArtsTypejeetkunedo",
-  jogodupau                 : "SR5.martialArtsTypejogodupau",
-  jujitsu                   : "SR5.martialArtsTypejujitsu",
-  karate                    : "SR5.martialArtsTypekarate",
-  kenjutsu                  : "SR5.martialArtsTypekenjutsu",
-  knighterranttactical      : "SR5.martialArtsTypeknighterranttactical",
-  kravmaga                  : "SR5.martialArtsTypekravmaga",
-  kunstdesfechtens          : "SR5.martialArtsTypekunstdesfechtens",
-  kyujutsu                  : "SR5.martialArtsTypekyujutsu",
-  laverdaderadestreza       : "SR5.martialArtsTypelaverdaderadestreza",
-  lonestartactical          : "SR5.martialArtsTypelonestartactical",
-  muaythai                  : "SR5.martialArtsTypemuaythai",
-  ninjutsu                  : "SR5.martialArtsTypeninjutsu",
-  okichitaw                 : "SR5.martialArtsTypeokichitaw",
-  parkour                   : "SR5.martialArtsTypeparkour",
-  pentjaksilat              : "SR5.martialArtsTypepentjaksilat",
-  quarterstafffighting      : "SR5.martialArtsTypequarterstafffighting",
-  sangreyacero              : "SR5.martialArtsTypesangreyacero",
-  taekwondo                 : "SR5.martialArtsTypetaekwondo",
-  thecowboyway              : "SR5.martialArtsTypethecowboyway",
-  turkisharchery            : "SR5.martialArtsTypeturkisharchery",
-  whipfighting              : "SR5.martialArtsTypewhipfighting",
-  wildcat                   : "SR5.martialArtsTypewildcat",
-  wrestlingmma              : "SR5.martialArtsTypewrestlingmma",
-  wrestlingprofessionnal    : "SR5.martialArtsTypewrestlingprofessionnal",
-  wrestlingsport            : "SR5.martialArtsTypewrestlingsport",
-  wrestlingsumo             : "SR5.martialArtsTypewrestlingsumo",
-  wudangsword               : "SR5.martialArtsTypewudangsword",
+blocks52 : "SR5.martialArtsType52blocks",
+aikido : "SR5.martialArtsTypeaikido",
+arnisdemano : "SR5.martialArtsTypearnisdemano",
+bartitsu : "SR5.martialArtsTypebartitsu",
+boxingbrawler : "SR5.martialArtsTypeboxingbrawler",
+boxingclassic : "SR5.martialArtsTypeboxingclassic",
+boxingswarming : "SR5.martialArtsTypeboxingswarming",
+capoeira : "SR5.martialArtsTypecapoeira",
+carromeleg : "SR5.martialArtsTypecarromeleg",
+chakramfighting : "SR5.martialArtsTypechakramfighting",
+drunkenboxing : "SR5.martialArtsTypedrunkenboxing",
+fioredeiliberi : "SR5.martialArtsTypefioredeiliberi",
+firefight : "SR5.martialArtsTypefirefight",
+gunkata : "SR5.martialArtsTypegunkata",
+jeetkunedo : "SR5.martialArtsTypejeetkunedo",
+jogodupau : "SR5.martialArtsTypejogodupau",
+jujitsu : "SR5.martialArtsTypejujitsu",
+karate : "SR5.martialArtsTypekarate",
+kenjutsu : "SR5.martialArtsTypekenjutsu",
+knighterranttactical : "SR5.martialArtsTypeknighterranttactical",
+kravmaga : "SR5.martialArtsTypekravmaga",
+kunstdesfechtens : "SR5.martialArtsTypekunstdesfechtens",
+kyujutsu : "SR5.martialArtsTypekyujutsu",
+laverdaderadestreza : "SR5.martialArtsTypelaverdaderadestreza",
+lonestartactical : "SR5.martialArtsTypelonestartactical",
+muaythai : "SR5.martialArtsTypemuaythai",
+ninjutsu : "SR5.martialArtsTypeninjutsu",
+okichitaw : "SR5.martialArtsTypeokichitaw",
+parkour : "SR5.martialArtsTypeparkour",
+pentjaksilat : "SR5.martialArtsTypepentjaksilat",
+quarterstafffighting : "SR5.martialArtsTypequarterstafffighting",
+sangreyacero : "SR5.martialArtsTypesangreyacero",
+taekwondo : "SR5.martialArtsTypetaekwondo",
+thecowboyway : "SR5.martialArtsTypethecowboyway",
+turkisharchery : "SR5.martialArtsTypeturkisharchery",
+whipfighting : "SR5.martialArtsTypewhipfighting",
+wildcat : "SR5.martialArtsTypewildcat",
+wrestlingmma : "SR5.martialArtsTypewrestlingmma",
+wrestlingprofessionnal : "SR5.martialArtsTypewrestlingprofessionnal",
+wrestlingsport : "SR5.martialArtsTypewrestlingsport",
+wrestlingsumo : "SR5.martialArtsTypewrestlingsumo",
+wudangsword : "SR5.martialArtsTypewudangsword",
 };
 
 //-----------------------------------//
@@ -1314,8 +1314,6 @@ SR5.matrixActions = {
 SR5.complexFormTargets = {
   device                    : "SR5.ComplexFormTargetDevice",
   file                      : "SR5.ComplexFormTargetFile",
-  host                      : "SR5.ComplexFormTargetHost",
-  ice                       : "SR5.DEVICE_TYPE_Ice_F",
   persona                   : "SR5.ComplexFormTargetPersona",
   self                      : "SR5.ComplexFormTargetSelf",
   sprite                    : "SR5.ComplexFormTargetSprite",
@@ -1382,10 +1380,10 @@ SR5.programTypes = {
   agent                     : "SR5.ProgramTypeAgent",
   activesoft                : "SR5.ProgramTypeActivesoft",
   datasoft                  : "SR5.ProgramTypeDatasoft",
-  knowsoft                  : "SR5.ProgramTypeKnowsoft",
-  linguasoft                : "SR5.ProgramTypeLinguasoft",
+  knowsoft                  : "SR5.ProgramTypeKnowsoft", 
+  linguasoft                : "SR5.ProgramTypeLinguasoft", 
   mapsoft                   : "SR5.ProgramTypeMapsoft",
-  shopsoft                  : "SR5.ProgramTypeShopsoft",
+  shopsoft                  : "SR5.ProgramTypeShopsoft", 
   tutorsoft                 : "SR5.ProgramTypeTutorsoft",
 };
 
@@ -2027,7 +2025,7 @@ SR5.spiritOptionalPowersshedim = {
   accident                   : "SR5.SpiritPowerAccident",
   auraMasking                : "SR5.SpiritPowerAuraMasking",
   compulsion                 : "SR5.SpiritPowerCompulsion",
-  regeneration               : "SR5.SpiritPowerRegeneration",
+  regeneration               : "SR5.SpiritPowerRegeneration", 
   search                     : "SR5.SpiritPowerSearch",
   shadowCloak                : "SR5.SpiritPowerShadowCloak",
   silence                    : "SR5.SpiritPowerSilence",
@@ -2044,7 +2042,7 @@ SR5.spiritBasePowersshedimMaster = {
   fear                       : "SR5.SpiritPowerFear",
   immunity                   : "SR5.SpiritPowerImmunity",
   possession                 : "SR5.SpiritPowerPossession",
-  regeneration               : "SR5.SpiritPowerRegeneration",
+  regeneration               : "SR5.SpiritPowerRegeneration", 
   sapience                   : "SR5.SpiritPowerSapience",
   shadowCloak                : "SR5.SpiritPowerShadowCloak",
   spiritPact                 : "SR5.SpiritPowerSpiritPact",
@@ -2167,7 +2165,7 @@ SR5.AllSpiritPowers = {
   possession                 : "SR5.SpiritPowerPossession",
   psychokinesis              : "SR5.SpiritPowerPsychokinesis",
   realisticForm              : "SR5.SpiritPowerRealisticForm",
-  regeneration               : "SR5.SpiritPowerRegeneration",
+  regeneration               : "SR5.SpiritPowerRegeneration", 
   sapience                   : "SR5.SpiritPowerSapience",
   search                     : "SR5.SpiritPowerSearch",
   shadowCloak                : "SR5.SpiritPowerShadowCloak",
@@ -2217,7 +2215,6 @@ SR5.customEffectsTypes = {
   rating                    : "SR5.Rating",
   ratingReplace             : "SR5.RatingReplace",
   hits                      : "SR5.DiceHits",
-  netHits                   : "SR5.NetHits",
   boolean                   : "SR5.Boolean",
 };
 
@@ -2230,16 +2227,12 @@ SR5.effectTypes = {
   signalJam                 : "SR5.EffectSignalJam",
   signalJammed              : "SR5.EffectSignalJammed",
   linkLock                  : "SR5.EffectLinkLockedConnection",
-  itemComplexForm           : "ITEM.TypeItemcomplexform",
-  derezz                    : "SR5.Derezz",
 }
 
 SR5.effectDuration = {
   round                     : "SR5.CombatTurn",
   permanent                 : "SR5.DurationPermanent",
-  special                   : "SR5.DurationSpecial",
-  sustained                 : "SR5.DurationSustained",
-  reboot                    : "SR5.UntilReboot",
+  special                   : "SR5.DurationSpecial"
 }
 
 SR5.specialProperties = {
@@ -2337,7 +2330,7 @@ SR5.statusEffects = [
       core: {
         overlay: true,
       }
-    },
+    },    
   },
   {
     icon: "systems/sr5/img/status/StatusProneOn.svg",

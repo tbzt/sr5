@@ -4510,14 +4510,7 @@
       "creatorItemId": "",
       "isBounded": false,
       "magic": {
-        "tradition": "",
-        "magicType": "spirit",
-        "drainResistance": {
-          "dicePool": 0,
-          "base": 0,
-          "modifiers": [],
-          "linkedAttribute": ""
-          }
+        "tradition": ""
         }
     },
     "actorDrone": {
@@ -5624,14 +5617,7 @@
       },
       "isBounded": false,
       "magic": {
-        "tradition": "",
-        "magicType": "spirit",
-        "drainResistance": {
-          "dicePool": 0,
-          "base": 0,
-          "modifiers": [],
-          "linkedAttribute": ""
-          }
+        "tradition": ""
       },
       "summonerMagic": 0,
       "isCreated": false,

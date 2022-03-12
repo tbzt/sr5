@@ -6,7 +6,11 @@
   "authors": [],
   "url": "https://github.com/shadowfoundry/sr5",
   "flags": {},
+<<<<<<< Updated upstream
   "version": "0.0.4.20",
+=======
+  "version": "0.0.5.2",
+>>>>>>> Stashed changes
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9.249",
   "scripts": [],

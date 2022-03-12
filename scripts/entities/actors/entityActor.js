@@ -369,7 +369,7 @@ export class SR5Actor extends Actor {
         SR5_CharacterUtility.updateEncumbrance(actor);
         SR5_CharacterUtility.updateRecoil(actor);
         SR5_CharacterUtility.updateMovements(actor);
-        SR5_CharacterUtility.updateTradition(actor);
+        //SR5_CharacterUtility.updateTradition(actor);
         SR5_CharacterUtility.updateAstralValues(actor);
         SR5_CharacterUtility.handleVision(actor);
         SR5_CharacterUtility.updateConditionMonitors(actor);
@@ -590,6 +590,14 @@ export class SR5Actor extends Actor {
           if (iData.type === "signalJam") actorData.data.matrix.isJamming = true;
           break;
 
+<<<<<<< Updated upstream
+=======
+        case "itemTradition":
+          SR5_CharacterUtility.updateTradition(actorData, iData);
+          break;
+
+        case "itemSprite":
+>>>>>>> Stashed changes
         case "itemLanguage":
         case "itemKnowledge":
         case "itemMark":

@@ -4037,7 +4037,7 @@
             "modifiers": [],
             "linkedAttribute": ""
           },
-          "isPossessed": false,
+          "possession": false,
           "hasAstralProjection": false
         }
       },
@@ -5277,7 +5277,8 @@
       "itemVehicle",
       "itemWeapon",
       "itemEffect",
-      "itemDrug"
+      "itemDrug",
+      "itemTradition"
     ],
     "templates": {
       "templateDescription": {
@@ -6009,6 +6010,19 @@
         "threshold": 0
       },
       "wirelessTurnedOn": false
+    },
+    "itemTradition":{
+      "templates": [
+        "templateDescription",
+        "templateCustomEffects"
+      ],
+      "drainAttribute":"",
+      "spiritCombat":"",
+      "spiritDetection":"",
+      "spiritIllusion":"",
+      "spiritManipulation":"",
+      "spiritHealth":"",
+      "possession": false
     }
   }
 }
